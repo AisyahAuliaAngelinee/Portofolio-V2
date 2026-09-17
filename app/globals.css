@@ -32,3 +32,6 @@
 @media(max-width:640px){.header-shell{height:106px}.header-shell .header{height:106px;padding:9px 6% 7px;align-content:center;justify-content:flex-start;gap:1px}.header-shell .header-floating{top:12px;width:calc(100% - 24px);height:96px;padding:8px 20px 10px;border-radius:28px}.header-floating .wordmark{font-size:23px}.header-floating nav{gap:10px}.header-floating nav a{padding:9px 0;font-size:14px}html{scroll-padding-top:128px}}
 @media(max-width:370px){.header-shell .header-floating{padding-inline:15px}.header-floating nav a{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.header-shell .header,.header .wordmark,.header .nav-cta{transition:none}}
+/* Hide the page scrollbar while preserving wheel, touch, and keyboard scrolling. */
+html,body{scrollbar-width:none;-ms-overflow-style:none}
+html::-webkit-scrollbar,body::-webkit-scrollbar{display:none;width:0;height:0}

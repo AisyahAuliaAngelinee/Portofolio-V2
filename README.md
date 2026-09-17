@@ -48,3 +48,15 @@ The Home portrait is the image supplied by the owner, copied unchanged to `publi
 `components/personal-projects.tsx` contains the five requested projects, GitHub URLs, descriptions, and primary technology lists. Stack evidence: repository package.json files for Portofolio (`personal-website/`), bradds-industries (`client/`), 3D-Shirt-Customizer (`client/`, `server/`), and 3D-Website (`client/`). Constrack uses the matching local checkout's client/KanbanBoard and server manifests, whose origin matches the supplied GitHub URL; its remote repository was not publicly readable during this update.
 
 `components/tech-badge.tsx` maps technologies to local logos; Problem solving uses a lightbulb icon.
+
+## Interface features
+
+- Responsive single-page navigation with smooth scrolling and section tracking.
+- Borderless full-width navigation at the top, transitioning to a floating, rounded navbar with backdrop blur when scrolling.
+- Hidden browser scrollbars without disabling scrolling, touch gestures, or keyboard navigation.
+- Five personal projects with technology logos, repository links, and live website links where available.
+- Editable freelance and full-time remote inquiry templates.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), copyright © 2026 Vincentius Clarishna. Third-party dependencies and bundled assets retain their applicable licenses and notices, including the files in `vendor/` and `build/`.
