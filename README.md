@@ -1,6 +1,6 @@
-# Vincentius Clarishna — Portfolio
+# clrshna | Personal Portofolio Website
 
-A responsive single-page portfolio with Home, Work, Skill and Contact sections. Built with React, TypeScript, Next.js App Router conventions and shadcn/ui. Sites runs this project through the Next.js-compatible Vinext runtime. Smooth navigation and reveal effects use CSS and IntersectionObserver, with reduced-motion support.
+A responsive single-page portfolio with Home, Work, Skill, Project and Contact sections. Built with React, TypeScript, Next.js App Router conventions and shadcn/ui. Sites runs this project through the Next.js-compatible Vinext runtime. Smooth navigation and reveal effects use CSS and IntersectionObserver, with reduced-motion support.
 
 ## Run locally
 
@@ -40,3 +40,11 @@ Delivery to the inbox has not been tested or activated by the build process. Ser
 - Empty required fields block submission.
 
 The deployed Sites version starts owner-private. Change its sharing settings before distributing it to recruiters or clients.
+
+## Personal projects and assets
+
+The Home portrait is the image supplied by the owner, copied unchanged to `public/images/vincentius-clarishna.png`. Technology and GitHub SVG logos come from the Simple Icons project (https://github.com/simple-icons/simple-icons); logos are stored locally and rendered monochrome. Brand marks remain the property of their owners.
+
+`components/personal-projects.tsx` contains the five requested projects, GitHub URLs, descriptions, and primary technology lists. Stack evidence: repository package.json files for Portofolio (`personal-website/`), bradds-industries (`client/`), 3D-Shirt-Customizer (`client/`, `server/`), and 3D-Website (`client/`). Constrack uses the matching local checkout's client/KanbanBoard and server manifests, whose origin matches the supplied GitHub URL; its remote repository was not publicly readable during this update.
+
+`components/tech-badge.tsx` maps technologies to local logos; Problem solving uses a lightbulb icon.
