@@ -13,6 +13,19 @@ npm run dev
 
 The preview runs at http://localhost:5173. `npm run build` creates the production output; `npx tsc --noEmit` checks types. The project can also use the installed Next.js CLI (`npx next dev` / `npx next build`) for a conventional Next.js workflow outside Sites. Sites deployment uses the existing Vinext/Cloudflare configuration.
 
+## Deploy to Vercel
+
+Import this repository with the repository root as the Root Directory and select the Next.js framework preset. The committed `vercel.json` selects `npm run build:vercel` and the `.next` output directory automatically.
+
+`npm run build:vercel` runs the native Next.js production build, including `.next/routes-manifest.json`. The default `npm run build` targets Sites/Vinext and produces `dist`, so it must not be used for a Vercel Next.js deployment. After pulling this configuration, redeploy the latest commit if Vercel does not start a deployment automatically.
+
+To verify the Vercel build locally:
+
+```sh
+npm run build:vercel
+npx next start
+```
+
 ## Edit content
 
 - `app/page.tsx`: introduction, experience, skills, recipient address and editable inquiry templates.
