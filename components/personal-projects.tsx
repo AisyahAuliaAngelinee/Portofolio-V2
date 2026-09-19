@@ -28,7 +28,7 @@ const projects = [
 		ongoing: false,
 		description:
 			"A profile website for medical services and the fire department, built for the GTA Roleplay Executive RP community in Los Santos and Sandy Shores.",
-		stack: ["Next.js", "React", "Typescript", "Framer Motion"],
+		stack: ["Next.js", "React", "TypeScript", "Framer Motion"],
 	},
 	{
 		name: "Portofolio",
