@@ -35,3 +35,5 @@
 /* Hide the page scrollbar while preserving wheel, touch, and keyboard scrolling. */
 html,body{scrollbar-width:none;-ms-overflow-style:none}
 html::-webkit-scrollbar,body::-webkit-scrollbar{display:none;width:0;height:0}
+
+.social-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.social-links a{display:inline-flex;align-items:center;gap:12px;min-height:44px;padding:10px 16px;border:1px solid var(--border);border-radius:999px;font-size:14px;color:#d8dfcf;transition:color .2s,background .2s}.social-links a:hover{color:var(--primary);background:#ffffff08}.social-links a:focus-visible{outline:2px solid var(--primary);outline-offset:4px}

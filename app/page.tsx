@@ -73,6 +73,21 @@ const skills = [
 		tags: ["Problem solving"],
 	},
 ];
+function SocialLinks() {
+	return (
+		<div className="social-links" aria-label="Social profiles">
+			<a href="https://github.com/AisyahAuliaAngelinee" target="_blank" rel="noopener noreferrer">
+				GitHub <ArrowUpRight size={16} aria-hidden="true" />
+				<span className="sr-only"> (opens in a new tab)</span>
+			</a>
+			<a href="https://www.linkedin.com/in/vincentius-clarishna/" target="_blank" rel="noopener noreferrer">
+				LinkedIn <ArrowUpRight size={16} aria-hidden="true" />
+				<span className="sr-only"> (opens in a new tab)</span>
+			</a>
+		</div>
+	);
+}
+
 export default function Home() {
 	const [isFloating, setIsFloating] = useState(false);
 	const [active, setActive] = useState("home"),
@@ -260,6 +275,7 @@ export default function Home() {
 									Let’s build something <ArrowUpRight size={18} />
 								</a>
 							</div>
+							<SocialLinks />
 						</div>
 						<figure className="hero-portrait">
 							<img
@@ -362,6 +378,7 @@ export default function Home() {
 							<Mail size={17} />
 							<span>{recipient}</span>
 						</a>
+						<SocialLinks />
 						<p className="contact-note">
 							Good things start with a conversation.
 						</p>
