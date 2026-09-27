@@ -21,6 +21,23 @@ const projects = [
 		],
 	},
 	{
+		name: "Roblox Kopdes",
+		repo: "roblox-kopdes",
+		website: "https://roblox-kopdes.vercel.app/",
+		category: "E-COMMERCE",
+		ongoing: false,
+		description:
+			"Prototipe ecommerce koperasi desa yang terinspirasi pengalaman Kopdes di Roblox. Dibuat untuk eksplorasi UI dan vibecoding, bukan layanan resmi pemerintah, Roblox, atau koperasi sungguhan.",
+		stack: [
+			"Next.js",
+			"Tailwind CSS",
+			"TypeScript",
+			"Framer Motion",
+			"shadcn/ui",
+			"Three.js",
+		],
+	},
+	{
 		name: "Executive RP Medical Center",
 		repo: "dashboard-sahd",
 		website: "https://dashboard-sahd.vercel.app/",
